@@ -1,0 +1,110 @@
+*{
+    font-family: serif;
+}
+#_product:hover{
+    box-shadow: -5px 1px 17px 0px #818181 ;
+}
+
+a{
+  color: #5e5e5e;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
+.nav-link{
+    color: black;
+    font-weight: 900;
+    opacity: 0.7;
+}
+.nav-link:hover{
+    color: black;
+    opacity: 1;
+    border: 0px;
+}
+.nav-tabs .nav-link{
+    border: 0px;
+}
+.d-flex{
+  margin-top: 100px;
+  width: 70%;
+  height: 120vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+._button{
+  border: 5px solid white;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+._button:hover{
+  border: 5px solid black;
+  background-color: white;
+  color: black;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  border-radius: 50px;
+  color: black;
+  }
+.fa-twitter {
+  border-radius: 50px;
+  color: black;
+}
+.fa-linkedin {
+  border-radius: 50px;
+  color: black;
+}
+.fa-youtube {
+  border-radius: 50px;
+  color: black;
+}
+.fa-instagram {
+  border-radius: 50px;
+  color: black;
+}
+.fa-pinterest {
+  border-radius: 50px;
+  color: black;
+}
+@media screen and (max-width: 700px){
+  .d-flex{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 500px;
+    top: 450px;
+  }
+  .p-2{
+    flex: 100%;
+  }
+  ._sanitizers{
+    margin-left: 30px;
+  }
+  #_san{
+    top: 460px;
+  }
+  ._kids{
+    margin-left: 80px;
+  }
+  #_seclast{
+    margin-top: 550px;
+  }
+  #_last{
+    margin-top: 600px;
+  }
+  #_footer{
+    margin-top: 450px;
+  }
+}
